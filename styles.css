@@ -16,15 +16,17 @@
 
 .section {
   font-family: 'calamity';
-  padding: 1.75%;
+/*  padding: 15px 45px;*/
   font-weight: bold;
   line-height: 1.5;
+  width: 100%;
+
 
   display: flex;
 }
 
 .section--upper {
-  height: 38.3vh;
+  height: 38vh;
 
   background-color: #FCFAE1;
   
@@ -32,7 +34,7 @@
 }
 
 .section--lower{
-  height: 61.7vh;
+  height: 62vh;
 
   background-color: black;
   
@@ -40,5 +42,11 @@
 }
 
 .section__title {
+  font-size: 32px;
+
   align-self: flex-end;
 } 
+
+.section__info {
+  font-size: 20px;
+}
