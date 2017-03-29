@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'calamity';
+  src: url('fonts/calamity-bold-webfont.woff2') format('woff2'),
+       url('fonts/calamity-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'calamity';
+  src: url('fonts/calamity-regular-webfont.woff2') format('woff2'),
+       url('fonts/calamity-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.upper-section {
+  height: 50vh;
+
+  background-color: white;
+  
+  font-family: 'calamity';
+  color: black;
+}
+
+.lower-section {
+  height: 50vh;
+  background-color: black;
+}
