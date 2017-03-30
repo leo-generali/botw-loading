@@ -1,3 +1,7 @@
+$cream: #FCFAE1;
+$black: #000;
+
+
 @font-face {
   font-family: 'calamity';
   src: url('fonts/calamity-bold-webfont.woff2') format('woff2'),
@@ -28,7 +32,7 @@
 .section--upper {
   height: 38vh;
 
-  background-color: #FCFAE1;
+  background-color: $cream;
   
   color: black;
 }
@@ -38,7 +42,7 @@
 
   background-color: black;
   
-  color: #FCFAE1;
+  color: $cream;
 }
 
 .section__title {
