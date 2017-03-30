@@ -4,16 +4,16 @@ $black: #000;
 
 @font-face {
   font-family: 'calamity';
-  src: url('fonts/calamity-bold-webfont.woff2') format('woff2'),
-       url('fonts/calamity-bold-webfont.woff') format('woff');
+  src: url('../fonts/calamity-bold-webfont.woff2') format('woff2'),
+       url('../fonts/calamity-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'calamity';
-  src: url('fonts/calamity-regular-webfont.woff2') format('woff2'),
-       url('fonts/calamity-regular-webfont.woff') format('woff');
+  src: url('../fonts/calamity-regular-webfont.woff2') format('woff2'),
+       url('../fonts/calamity-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,13 +34,13 @@ $black: #000;
 
   background-color: $cream;
   
-  color: black;
+  color: $black;
 }
 
 .section--lower{
   height: 62vh;
 
-  background-color: black;
+  background-color: $black;
   
   color: $cream;
 }

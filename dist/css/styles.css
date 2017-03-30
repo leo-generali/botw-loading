@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'calamity';
+  src: url("../fonts/calamity-bold-webfont.woff2") format("woff2"), url("../fonts/calamity-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'calamity';
+  src: url("../fonts/calamity-regular-webfont.woff2") format("woff2"), url("../fonts/calamity-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.section {
+  font-family: 'calamity';
+  /*  padding: 15px 45px;*/
+  font-weight: bold;
+  line-height: 1.5;
+  width: 100%;
+  display: flex; }
+
+.section--upper {
+  height: 38vh;
+  background-color: #FCFAE1;
+  color: #000; }
+
+.section--lower {
+  height: 62vh;
+  background-color: #000;
+  color: #FCFAE1; }
+
+.section__title {
+  font-size: 32px;
+  align-self: flex-end; }
+
+.section__info {
+  font-size: 20px; }
